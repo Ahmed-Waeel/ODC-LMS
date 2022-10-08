@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=El+Messiri:wght@400;500;600;700&family=Noto+Nastaliq+Urdu&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+body {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    font-family: 'Amiri', serif;
+    font-family: 'El Messiri', sans-serif;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #525252 !important
+}
+
+.nav-link .fa {
+    transition: all 1s
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg)
+}
+.fa{
+    font-size: 20px;
+    margin-right: 20px;
+}
+.fa-user{
+    font-size: 75px;
+    color: #2d5bb3;
+    text-align: center;
+    margin: 0 10px;
+}
+.fa-graduation-cap{
+    font-size: 75px;
+    color: #2d5bb3;
+    text-align: center;
+    margin: 0 10px;
+}
+.fa-facebook-f{
+    font-size: 75px;
+    color: #2d5bb3;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.main{
+    width: 80.58%;
+    height:400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+    margin-left:24px;
+    margin-right: 24px;
+    margin-top: 30px;
+    box-shadow: 5px 10px rgb(0 0 0 /0.1) , -5px -7px rgb(0 0 0 / 0.1);
+}
+.counter-container{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+.counter-container span {
+    font-size: 40px;
+}
+.fa-facebook-f{
+    font-size: 75px;
+    color: #3b5998;
+}
+.fa-youtube{
+    font-size: 75px;
+    color: #ff0000;
+}
+.fa-twitter{
+    font-size: 75px;
+    color: #1da1f2;
+}
+
+@media(max-width:580px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
